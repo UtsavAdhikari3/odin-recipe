@@ -1,0 +1,32 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}   
+
+.headSection h1{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border-width: 3px;
+    padding: 5px;
+    margin: 20px;
+}
+
+.headSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headSection img{
+    border-radius: 8px;
+}
+
+.ingredients{
+    display: flex;
+    justify-content: center;
+}
+
+.mid h3{
+    text-align: center;
+    font-weight: bolder;
+}
