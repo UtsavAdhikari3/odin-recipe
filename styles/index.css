@@ -1,6 +1,6 @@
 .recipeList{
     background-color: black;
-    width: 200px;
+    width: 250px;
     height: 30px;
     position: absolute;
     left: 250px;
@@ -8,13 +8,13 @@
     border-radius: 8px;
     padding: 8px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    /* gap: 2rem; */
 }
 
 .recipeList a{
     color: white;
-    display: flex;
-    position: relative;
+    /* display: flex; */
     font-family: 'Courier New', Courier, monospace;
     margin: 8px;
 }
@@ -34,4 +34,11 @@ a:link {
   } 
   a:active { 
     text-decoration: none; 
+  }
+
+  .recipeList div{
+    width: auto;
+    border: 4px solid white;
+    border-radius: 4px;
+    margin: auto;
   }
